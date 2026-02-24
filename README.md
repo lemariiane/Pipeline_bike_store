@@ -1,4 +1,4 @@
-Este projeto implementa uma pipeline de dados automatizada utilizando a Arquitetura Medallion, transformando dados de uma rede de lojas de bicicletas em tabelas analíticas de alta performance.
+Esse projeto implementa uma pipeline de dados automatizada utilizando a Arquitetura Medallion, transformando dados de uma rede de lojas de bicicletas em tabelas analíticas de alta performance.
 
 Objetivo:
 Resolver o problema de fragmentação de dados entre vendas, estoques e clientes, permitindo que o time de operações tome decisões baseadas em dados em tempo real (focando em pedidos pendentes e performance regional).
