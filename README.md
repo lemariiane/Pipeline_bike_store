@@ -1,5 +1,6 @@
 Esse projeto implementa uma pipeline de dados automatizada utilizando a Arquitetura Medallion, transformando dados de uma rede de lojas de bicicletas em tabelas analíticas de alta performance.
 
+
 Objetivo:
 Resolver o problema de fragmentação de dados entre vendas, estoques e clientes, permitindo que o time de operações tome decisões baseadas em dados em tempo real (focando em pedidos pendentes e performance regional).
 
@@ -14,6 +15,7 @@ Orquestração: Databricks
 
 Arquitetura e Fluxo de Dados
 
+
 🥉 Camada Bronze (Raw & Ingestion)
 
 Ingestão de 9 fontes de dados (brands, categories, customers, orders, etc.).
@@ -22,6 +24,7 @@ Foco: Preservação da fidelidade dos dados originais.
 
 Data Validation: Etapa 00-Bronze_Validate para garantir a integridade da carga inicial.
 
+
 🥈 Camada Silver (Cleaned & Integrated)
 
 Unificação de entidades de produtos, pedidos e clientes.
@@ -29,6 +32,7 @@ Unificação de entidades de produtos, pedidos e clientes.
 Tratamento de tipos de dados, normalização e limpeza.
 
 Governance: Nova etapa de validação (00-Silver_Validate) antes da promoção para a camada final.
+
 
 🥇 Camada Gold (Business / Analytics)
 
